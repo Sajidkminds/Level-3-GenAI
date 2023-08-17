@@ -2,8 +2,8 @@
 ## CREATE AN API_KEY > APIs & Services > Credentials > Create Credentials>API key
 ## Run in cloudshell
 ```cmd
-gcloud alpha services api-keys create --display-name="CloudHustlers" 
-KEY_NAME=$(gcloud alpha services api-keys list --format="value(name)" --filter "displayName=CloudHustlers")
+gcloud alpha services api-keys create --display-name="Sajidkminds" 
+KEY_NAME=$(gcloud alpha services api-keys list --format="value(name)" --filter "displayName=Sajidkminds")
 export API_KEY=$(gcloud alpha services api-keys get-key-string $KEY_NAME --format="value(keyString)")
 export PROJECT_ID=$(gcloud config list --format 'value(core.project)')
 gsutil mb gs://$PROJECT_ID
