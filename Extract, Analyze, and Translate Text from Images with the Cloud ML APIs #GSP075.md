@@ -34,7 +34,7 @@ curl -s -X POST -H "Content-Type: application/json" --data-binary @ocr-request.j
 touch translation-request.json
 tee translation-request.json <<EOF
 {
-  "q": "My Name is Sajidkminds",	
+  "q": "My Name is SAJIDKMINDS",	
   "target": "en"
 }
 EOF
